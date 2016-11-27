@@ -1,0 +1,23 @@
+{
+  "name": "ivm_",
+  "version": "0.0.1",
+  "bin": { 
+    "ivm" : "./ivm.js"
+  },
+  "description": "IPFS Version Manager - Install go-ipfs binaries easily",
+  "main": "ivm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ipfs",
+    "install",
+    "go-ipfs"
+  ],
+  "author": "Haad",
+  "license": "MIT",
+  "dependencies": {
+    "@haad/go-ipfs-dep": "^0.4.5-beta.3",
+    "yargs": "^6.4.0"
+  }
+}
