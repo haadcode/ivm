@@ -1,6 +1,6 @@
 {
   "name": "ivm_",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": { 
     "ivm" : "./ivm.js"
   },
@@ -8,6 +8,13 @@
   "main": "ivm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haadcode/ivm"
+  },
+  "engines": {
+    "node": "^6.x.x"
   },
   "keywords": [
     "ipfs",
